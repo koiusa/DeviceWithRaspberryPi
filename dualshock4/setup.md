@@ -9,7 +9,7 @@ pip install --break-system-packages pyPS4Controller
 ※もしかしたら、ds4drvは不要かも、、、
 ```
 pip install --break-system-packages ds4drv
-export PATH="$PATH:/home/pi/.local/bin"
+export PATH="$PATH:/home/${USER}/.local/bin"
 ```
 
 ## コントローラーを認識
