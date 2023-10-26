@@ -33,6 +33,13 @@ pip install --break-system-packages bleak
 
 # sudo権限でスクリプトを実行
 
+## BLEデバイスのMacアドレス列挙
 ```
 sudo -E env PATH=$PATH ./ble_simple_central.py
+```
+
+## BLEデバイスのUUID列挙
+The argument is the target mac address.
+```
+sudo -E env PATH=$PATH ./ble_device_uuids.py xx:xx:xx:xx:xx:xx
 ```
