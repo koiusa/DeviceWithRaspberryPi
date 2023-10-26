@@ -50,3 +50,9 @@ The argument is the target mac address.
 ```
 sudo -E env PATH=$PATH ./bleak_device_uuids.py xx:xx:xx:xx:xx:xx
 ```
+
+## BLEデバイスのSEVICE列挙
+The argument is the target mac address.
+```
+sudo -E env PATH=$PATH ./bleak_device_services.py xx:xx:xx:xx:xx:xx
+```
