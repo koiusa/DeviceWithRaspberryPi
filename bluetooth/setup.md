@@ -27,6 +27,10 @@ pip install --break-system-packages git+https://github.com/pybluez/pybluez
 pip install --break-system-packages gattlib
 ```
 
+```
+pip install --break-system-packages bleak
+```
+
 # sudo権限でスクリプトを実行
 
 ```
