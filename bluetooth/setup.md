@@ -34,12 +34,19 @@ pip install --break-system-packages bleak
 # sudo権限でスクリプトを実行
 
 ## BLEデバイスのMacアドレス列挙
+
+When using the gattlib library.
 ```
-sudo -E env PATH=$PATH ./ble_simple_central.py
+sudo -E env PATH=$PATH ./ble_discover_devices.py
+```
+
+When using the bleak library.
+```
+sudo -E env PATH=$PATH ./bleak_discover_devices.py
 ```
 
 ## BLEデバイスのUUID列挙
 The argument is the target mac address.
 ```
-sudo -E env PATH=$PATH ./ble_device_uuids.py xx:xx:xx:xx:xx:xx
+sudo -E env PATH=$PATH ./bleak_device_uuids.py xx:xx:xx:xx:xx:xx
 ```
